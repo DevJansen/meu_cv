@@ -52,12 +52,21 @@ export interface PortfolioData {
 
 export const portfolioData: PortfolioData = {
   name: "JHONATA JANSEN",
-  title: "Desenvolvedor Back End | Java | Spring Boot | SQL | NoSQL",
+  title: "Desenvolvedor Backend Java | Spring Boot | SQL | Docker | AWS | APIs REST",
   summary:
 `
-Desenvolvedor Full Stack focado em transformar desafios de negócio complexos em soluções técnicas escaláveis e cloud-native, minha especialidade é o backend, onde utilizo Java/Spring Boot para construir microsserviços de alto desempenho e arquiteturas robustas, seguindo princípios SOLID e Clean Code, no frontend, atuo com React e Next.js para criar interfaces otimizadas.
-Possuo experiência em arquitetura de infraestrutura na AWS e automação de CI/CD com Docker e GitHub Actions, atualmente, estou explorando ativamente IA Generativa (AWS AI Services) e aplicando Python para automação.
+Desenvolvedor Java, especializado em microsserviços e Spring Framework.
+Tenho experiência no design e implementação de APIs REST, além de competências em
+bancos de dados relacionais (PostgreSQL, MySQL) e NoSQL (MongoDB). Tenho aplicado
+princípios SOLID para garantir código limpo, modular e de fácil manutenção, bem como o
+uso de práticas de testes unitários e funcionais para assegurar a qualidade contínua das
+entregas.
 
+Também possuo experiência com mensageria com uso de tecnologias como Kafka e
+RabbitMQ.
+
+Tenho facilidade em aprender novas tecnologias e busco colaborar de forma eficaz com a
+equipe, visando as melhores entregas e soluções.
 `,
   contact: {
     email: "codejhonatajansen@gmail.com",
@@ -68,14 +77,10 @@ Possuo experiência em arquitetura de infraestrutura na AWS e automação de CI/
   education: [
     {
       degree: "Bacharelado em Engenharia de Software",
-      institution: "Instituto Federal de Educação, Ciência e Tecnologia do Ceará (IFCE)",
-      details: "Concluído em abr de 2025. Formação em análise de sistemas, engenharia de software, banco de dados e arquitetura de soluções. Período: jan de 2017 - abr de 2025.",
+      institution: "UNIASSELVI",
+      details: "Em andamento (jul de 2024 - nov de 2029).",
     },
-    {
-      degree: "Programa AWS re/Start + Inteligência Artificial",
-      institution: "Escola da Nuvem",
-      details: "Em andamento (out de 2025 - mar de 2026). Programa intensivo de Cloud Computing e IA, com foco em empregabilidade, infraestrutura AWS e proficiência em Python e Linux.",
-    },
+
     {
       degree: "Especialização Back End - G9 (ONE)",
       institution: "Alura Latam",
@@ -154,7 +159,7 @@ Possuo experiência em arquitetura de infraestrutura na AWS e automação de CI/
   projects: [
     {
       name: "Simulador de Terminal Bancário",
-      githubLink: "https://github.com/dessima/bank-simulator",
+      githubLink: "https://github.com/Devjansen",
       technologies: "Java 17, Maven, JUnit, Docker, Clean Architecture, SOLID",
       description: "Simulador de terminal bancário refatorado para seguir os princípios de Clean Architecture e SOLID. Foco em testes robustos (JUnit) e containerização (Docker).",
       features: [
@@ -168,7 +173,7 @@ Possuo experiência em arquitetura de infraestrutura na AWS e automação de CI/
     },
     {
       name: "Conversor de Moedas",
-      githubLink: "https://github.com/dessima/Conversor-de-Moedas",
+      githubLink: "https://github.com/Devjansen",
       technologies: "Java 17, Gson, Lombok, REST API",
       description: "Aplicação Java console para conversão de valores entre moedas e criptomoedas, utilizando taxas de câmbio em tempo real de APIs externas. Inclui histórico de conversões.",
       features: [
@@ -181,24 +186,8 @@ Possuo experiência em arquitetura de infraestrutura na AWS e automação de CI/
     },
 
     {
-      name: "Currículo Web Interativo",
-      githubLink: "https://github.com/dessima/meu_cv",
-      technologies: "Next.js 14, TypeScript, Framer Motion, Zod, React Hook Form, SEO",
-      description: "Aplicação web profissional com Next.js 14, TypeScript, validação de formulários (Zod + React Hook Form), animações (Framer Motion) e otimização para SEO e performance.",
-      features: [
-        "Static Site Generation (SSG) com Next.js 14",
-        "TypeScript para type safety",
-        "Validação robusta com Zod",
-        "Formulário de contato com React Hook Form",
-        "Animações suaves com Framer Motion",
-        "SEO otimizado (meta tags, sitemap)",
-        "Performance otimizada (Lighthouse 90+)"
-      ],
-    },
-
-    {
-      name: "Amigo Secreto - Cyberpunk Edition",
-      githubLink: "https://github.com/dessima/amigo-secreto",
+      name: "Amigo Secreto",
+      githubLink: "https://github.com/Devjansen",
       technologies: "JavaScript, HTML5, CSS3, DOM Manipulation, OOP",
       description: "Aplicação web interativa para sorteio de Amigo Secreto com estética Cyberpunk. Demonstra manipulação avançada de DOM e Programação Orientada a Objetos em JavaScript.",
       features: [
@@ -214,44 +203,53 @@ Possuo experiência em arquitetura de infraestrutura na AWS e automação de CI/
   
   experience: [
     {
-      title: "Desenvolvedor de Software | Java | Spring Boot | React | AWS | Docker",
+      title: "Desenvolvedor Backend Java | Spring Boot | SQL | Docker | AWS | APIs REST",
       company: "Freelancer/Projetos Pessoais",
       period: "2023 - Atual",
       location: "Remoto",
       responsibilities: [
-        "Desenvolvimento de APIs RESTful utilizando Java e Spring Boot, implementando segurança com Spring Security e persistência de dados com JPA/Hibernate.",
-        "Criação de aplicações front-end modernas com React e Next.js, focando em performance, SEO e experiência do usuário.",
-        "Implementação de práticas DevOps, incluindo containerização com Docker e CI/CD com GitHub Actions.",
-        "Modelagem e otimização de bancos de dados relacionais (PostgreSQL) e NoSQL (DynamoDB).",
-        "Estudo e aplicação de serviços AWS (EC2, S3, RDS, VPC) em arquiteturas cloud-native.",
-        "Aplicação de metodologias ágeis (Scrum/Kanban), Clean Code e princípios SOLID em todos os projetos.",
-      ],
-    },
-    {
-      title: "Consultor de TI / Analista de Sistemas",
-      company: "Diversas Empresas (Consultoria)",
-      period: "2019 - 2023",
-      location: "Fortaleza, CE",
-      responsibilities: [
-        "Análise e levantamento de requisitos para sistemas de gestão empresarial (ERP).",
-        "Elaboração de documentação técnica, manuais de usuário e planos de teste.",
-        "Suporte e manutenção de sistemas legados, garantindo a continuidade das operações.",
-        "Treinamento de usuários finais e equipes de suporte técnico.",
-        "Otimização de processos de negócio através da implementação de soluções de TI.",
+        "Desenvolvimento Freelancer de APIs REST.",
+        "Microserviços com Java Spring Boot.", 
+        "Realização de testes unitários com JUnit.", 
+        "Utilização de banco de dados SQL e NoSQL.",
+        "Mensageria com Kafka e RabbitMQ.",
+        "Utilização de Docker e Docker-composse.",
+        "Utilização de padrão MVC, SOLID e Clean Code.", 
+        "Uso de banco de dados SQL com JPA.",
+        "Trabalho com metodologia Scrum e Kamban."
       ],
     },
   ],
   certifications: [
     {
-      name: "AWS Knowledge: Cloud Essentials - Training Badge",
-      institution: "Amazon Web Services (AWS)",
-      date: "out de 2025",
-      details: "Competências: Amazon Web Services (AWS)",
-    }   
+      name: "Bootcamp Santander 2025 - Banck-End com Java",
+      institution: "DIO",
+      date: "ago de 2025",
+      details: "Competências: Java · Spring Boot · Spring Framework · MongoDB · SQL · NoSQL · maven · Gradle · MySQL",
+    },
+    {
+      name: "Formação Java Web Full-Stack e Spring Boot REST API",
+      institution: "JDev Treinamento",
+      date: "jun de 2025",
+      details: "Competências: Java · Desenvolvimento Java · JSF (JavaServer Faces) · JSP (JavaServer Pages) · SQL · Spring Framework MVC · Hibernate · JPA · Java EE · CDI · Apache Tomcat · WebServices · API REST · Spring Boot · Serviços Web RESTful · Spring Data · Spring Security · AJAX · JSON Web Token (JWT) · JSON · JavaScript · HTML · CSS · HTML5 · AngularJS",
+    },
+    {
+      name: "Java Com Spring Completo",
+      institution: "Javanauta",
+      date: "jun de 2025",
+      details: "Java · Spring Boot · Docker · PostgreSQL · MongoDB · maven · Gradle · IntelliJ IDEA · Postman API · Swagger API",
+    },
+     {
+      name: "Java Completo Programação Orientada a Objetos + Projetos",
+      institution: "Udemy",
+      date: "jun de 2025",
+      details: "Competências: Java · JDBC · JPA (Java Persistence API) · Hibernate · MySQL · MongoDB · Spring Boot · Git · GitHub · GitFlow · Mapeamento objeto-relacional · ORM · SQL · NoSQL · Spring Data",
+    },
+       
   ],
   languages: [
     { name: "Português", level: "Nativo" },
-    { name: "Inglês", level: "Intermediário (Avançando)" },
+    { name: "Inglês", level: "Básico" },
     { name: "Espanhol", level: "Básico" },
   ],
 };
