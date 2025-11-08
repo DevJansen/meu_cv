@@ -8,17 +8,17 @@ import ThemeScript from '@/components/ThemeScript'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'J.A.S.C - Portifólio',
-  description: 'Portifólio de José Anderson, Desenvolvedor Web Full-Stack.',
+  title: 'J.J - Portifólio',
+  description: 'Portifólio de Jhonata Jansen, Desenvolvedor Back End.',
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="pt-BR">
       <head>
-        <link rel="icon" href="/JA.ico" />
-        <link rel="apple-touch-icon" href="/JA.ico" />
-        <link rel="shortcut icon" href="/JA.ico" />
+        <link rel="icon" href="/JJ.svg" />
+        <link rel="apple-touch-icon" href="/JJ.svg" />
+        <link rel="shortcut icon" href="/JJ.svg" />
       </head>
       <body className={`${inter.className}`}>
         <ThemeScript />

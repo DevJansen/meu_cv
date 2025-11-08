@@ -51,8 +51,8 @@ export interface PortfolioData {
 }
 
 export const portfolioData: PortfolioData = {
-  name: "JOSÉ ANDERSON DA SILVA COSTA",
-  title: "Desenvolvedor de Software | Java | Spring Boot | React | AWS | Docker",
+  name: "JHONATA JANSEN",
+  title: "Desenvolvedor Back End | Java | Spring Boot | SQL | NoSQL",
   summary:
 `
 Desenvolvedor Full Stack focado em transformar desafios de negócio complexos em soluções técnicas escaláveis e cloud-native, minha especialidade é o backend, onde utilizo Java/Spring Boot para construir microsserviços de alto desempenho e arquiteturas robustas, seguindo princípios SOLID e Clean Code, no frontend, atuo com React e Next.js para criar interfaces otimizadas.
@@ -60,14 +60,14 @@ Possuo experiência em arquitetura de infraestrutura na AWS e automação de CI/
 
 `,
   contact: {
-    email: "j.anderson.sc.dev@gmail.com",
-    phone: "+55 88 99235-3236",
-    linkedin: "https://linkedin.com/in/dessim",
-    github: "https://github.com/dessima",
+    email: "codejhonatajansen@gmail.com",
+    phone: "+55 47 98908-2590",
+    linkedin: "https://linkedin.com/in/devjansen/",
+    github: "https://github.com/DevJansen",
   },
   education: [
     {
-      degree: "Bacharelado em Sistemas de Informação",
+      degree: "Bacharelado em Engenharia de Software",
       institution: "Instituto Federal de Educação, Ciência e Tecnologia do Ceará (IFCE)",
       details: "Concluído em abr de 2025. Formação em análise de sistemas, engenharia de software, banco de dados e arquitetura de soluções. Período: jan de 2017 - abr de 2025.",
     },
@@ -84,15 +84,14 @@ Possuo experiência em arquitetura de infraestrutura na AWS e automação de CI/
   ],
   skills: [
     // Linguagens de Programação
-    { name: "Java 17+", category: "Linguagens" },
-    { name: "Go (Básico)", category: "Linguagens" },
+    { name: "Java", category: "Linguagens" },
     { name: "JavaScript", category: "Linguagens" },
     { name: "TypeScript", category: "Linguagens" },
-    { name: "Python (Básico)", category: "Linguagens" },
+    { name: "Python", category: "Linguagens" },
     { name: "SQL", category: "Linguagens" },
     { name: "HTML5", category: "Linguagens" },
     { name: "CSS3", category: "Linguagens" },
-    { name: "Shell Script", category: "Linguagens" },
+    { name: "Kotlin", category: "Linguagens" },
     
     // Backend & APIs
     { name: "Spring Boot", category: "Backend & APIs" },
@@ -102,7 +101,6 @@ Possuo experiência em arquitetura de infraestrutura na AWS e automação de CI/
     { name: "REST API", category: "Backend & APIs" },
     { name: "Microsserviços", category: "Backend & APIs" },
     { name: "JSON / HTTP/HTTPS", category: "Backend & APIs" },
-    { name: "Node.js", category: "Backend & APIs" },
     { name: "Postman", category: "Backend & APIs" },
     
     // Frontend & FullStack
@@ -111,24 +109,24 @@ Possuo experiência em arquitetura de infraestrutura na AWS e automação de CI/
     { name: "Angular", category: "Frontend & FullStack" },
     { name: "TypeScript", category: "Frontend & FullStack" },
     { name: "Tailwind CSS", category: "Frontend & FullStack" },
-    { name: "Framer Motion", category: "Frontend & FullStack" },
-    { name: "Context API / Hooks", category: "Frontend & FullStack" },
+    //{ name: "Framer Motion", category: "Frontend & FullStack" },
+    //{ name: "Context API / Hooks", category: "Frontend & FullStack" },
     { name: "Design Responsivo", category: "Frontend & FullStack" },
     
     // Cloud & DevOps
     { name: "AWS (EC2, S3, RDS, VPC, IAM)", category: "Cloud & DevOps" },
     { name: "Docker", category: "Cloud & DevOps" },
     { name: "Docker Compose", category: "Cloud & DevOps" },
-    { name: "Nginx", category: "Cloud & DevOps" },
+    //{ name: "Nginx", category: "Cloud & DevOps" },
     { name: "CI/CD", category: "Cloud & DevOps" },
     { name: "GitHub Actions", category: "Cloud & DevOps" },
     { name: "Linux", category: "Cloud & DevOps" },
-    { name: "Infraestrutura como Código (IaC)", category: "Cloud & DevOps" },
+    //{ name: "Infraestrutura como Código (IaC)", category: "Cloud & DevOps" },
     
     // Banco de Dados
     { name: "PostgreSQL", category: "Banco de Dados" },
     { name: "MySQL", category: "Banco de Dados" },
-    { name: "DynamoDB (Básico)", category: "Banco de Dados" },
+    { name: "MongoDB", category: "Banco de Dados" },
     { name: "SQL Query Optimization", category: "Banco de Dados" },
     { name: "Database Design (ORM/JPA)", category: "Banco de Dados" },
     
@@ -138,14 +136,12 @@ Possuo experiência em arquitetura de infraestrutura na AWS e automação de CI/
     { name: "Design Patterns", category: "Metodologias & Conceitos" },
     { name: "TDD (Test-Driven Development)", category: "Metodologias & Conceitos" },
     { name: "Agile (Scrum, Kanban)", category: "Metodologias & Conceitos" },
-    { name: "Component-Based Architecture", category: "Metodologias & Conceitos" },
-    { name: "ITIL 4 Foundation", category: "Metodologias & Conceitos" },
-    
+       
     // Inteligência Artificial & ML
-    { name: "AWS AI Services (Bedrock, Textract, Lex)", category: "Inteligência Artificial & ML" },
-    { name: "Machine Learning Fundamentals", category: "Inteligência Artificial & ML" },
-    { name: "IA Generativa", category: "Inteligência Artificial & ML" },
-    { name: "Python", category: "Inteligência Artificial & ML" },
+    //{ name: "AWS AI Services (Bedrock, Textract, Lex)", category: "Inteligência Artificial & ML" },
+    //{ name: "Machine Learning Fundamentals", category: "Inteligência Artificial & ML" },
+    //{ name: "IA Generativa", category: "Inteligência Artificial & ML" },
+    //{ name: "Python", category: "Inteligência Artificial & ML" },
     
     // Ferramentas & Outros
     { name: "Git / GitHub", category: "Ferramentas & Outros" },
@@ -156,20 +152,6 @@ Possuo experiência em arquitetura de infraestrutura na AWS e automação de CI/
     { name: "Trabalho em Equipe", category: "Ferramentas & Outros" },
   ],
   projects: [
-    {
-      name: "Sistema de Delivery (Backend)",
-      githubLink: "https://github.com/dessima/delivery_system",
-      technologies: "Java 17, Spring Boot, PostgreSQL, Spring Security, JPA/Hibernate",
-      description: "API REST completa para sistema de delivery, priorizando a arquitetura e segurança. Implementação de autenticação, autorização e CRUD de entidades com relacionamentos complexos.",
-      features: [
-        "Autenticação e autorização com Spring Security (JWT)",
-        "CRUD completo de Usuários, Produtos e Pedidos",
-        "Relacionamentos complexos com JPA/Hibernate",
-        "Validação de dados com Bean Validation",
-        "PostgreSQL como banco de dados principal",
-        "Testes unitários e de integração"
-      ],
-    },
     {
       name: "Simulador de Terminal Bancário",
       githubLink: "https://github.com/dessima/bank-simulator",
@@ -197,20 +179,7 @@ Possuo experiência em arquitetura de infraestrutura na AWS e automação de CI/
         "Tratamento de erros de API"
       ],
     },
-    {
-      name: "Gerenciador de Credenciais (Full Stack)",
-      githubLink: "https://github.com/dessima/gerenciador-chaves",
-      technologies: "Go, React, PostgreSQL, Docker, Docker Compose, Nginx",
-      description: "Aplicação full stack para gerenciamento seguro de credenciais com backend em Go, frontend em React, banco PostgreSQL e deploy completo com Docker Compose + Nginx.",
-      features: [
-        "Backend RESTful em Go com arquitetura em camadas",
-        "Frontend React com Context API",
-        "Autenticação JWT",
-        "Deploy containerizado com Docker Compose",
-        "Nginx como reverse proxy e load balancer",
-        "Banco de dados PostgreSQL"
-      ],
-    },
+
     {
       name: "Currículo Web Interativo",
       githubLink: "https://github.com/dessima/meu_cv",
@@ -226,33 +195,7 @@ Possuo experiência em arquitetura de infraestrutura na AWS e automação de CI/
         "Performance otimizada (Lighthouse 90+)"
       ],
     },
-    {
-      name: "Galeria NASA",
-      githubLink: "https://github.com/dessima/NASA_Galery",
-      technologies: "React 18, Axios, Context API, CSS3",
-      description: "SPA interativa em React consumindo múltiplas APIs da NASA (APOD, Mars Rovers), com Context API para gerenciamento de estado, sistema de favoritos e design responsivo.",
-      features: [
-        "Consumo de múltiplas APIs NASA (APOD, Mars Rovers)",
-        "Context API para gerenciamento de estado global",
-        "Sistema de favoritos com localStorage",
-        "Design responsivo e mobile-first",
-        "Tratamento de estados assíncronos",
-        "Interface moderna e intuitiva"
-      ],
-    },
-    {
-      name: "Aventura do Herói (Game)",
-      githubLink: "https://github.com/DessimA/classificador-de-nivel-de-heroi",
-      technologies: "JavaScript, HTML5, CSS3, DOM Manipulation, Canvas",
-      description: "Jogo de corrida infinita 2D com temática cyberpunk, desenvolvido com JavaScript puro e Canvas. Demonstra manipulação de DOM, física básica e animações CSS complexas.",
-      features: [
-        "Desenvolvimento de jogo com JavaScript puro",
-        "Uso do elemento Canvas para renderização",
-        "Implementação de física e colisão básica",
-        "Animações CSS3 complexas",
-        "Layout responsivo e otimizado para mobile"
-      ],
-    },
+
     {
       name: "Amigo Secreto - Cyberpunk Edition",
       githubLink: "https://github.com/dessima/amigo-secreto",
@@ -267,6 +210,8 @@ Possuo experiência em arquitetura de infraestrutura na AWS e automação de CI/
       ],
     },
   ],
+
+  
   experience: [
     {
       title: "Desenvolvedor de Software | Java | Spring Boot | React | AWS | Docker",
