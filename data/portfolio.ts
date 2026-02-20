@@ -55,6 +55,8 @@ export const portfolioData: PortfolioData = {
   title: "Desenvolvedor Backend Java | Spring Boot | SQL | Docker | AWS | APIs REST",
   summary:
 `
+Desenvolvedor Java com mais de 3 anos e meio de experiência, especializada em microsserviços e Spring Framework.
+
 Desenvolvedor Java, especializado em microsserviços e Spring Framework.
 Tenho experiência no design e implementação de APIs REST, além de competências em
 bancos de dados relacionais (PostgreSQL, MySQL) e NoSQL (MongoDB). Tenho aplicado
@@ -66,7 +68,7 @@ Também possuo experiência com mensageria com uso de tecnologias como Kafka e
 RabbitMQ.
 
 Tenho facilidade em aprender novas tecnologias e busco colaborar de forma eficaz com a
-equipe, visando as melhores entregas e soluções.
+equipe, visando as melhores entregas e soluções..
 `,
   contact: {
     email: "codejhonatajansen@gmail.com",
@@ -91,11 +93,9 @@ equipe, visando as melhores entregas e soluções.
     // Linguagens de Programação
     { name: "Java", category: "Linguagens" },
     { name: "JavaScript", category: "Linguagens" },
-    { name: "TypeScript", category: "Linguagens" },
     { name: "Python", category: "Linguagens" },
     { name: "SQL", category: "Linguagens" },
-    { name: "HTML5", category: "Linguagens" },
-    { name: "CSS3", category: "Linguagens" },
+    { name: "Dart", category: "Linguagens" },
     { name: "Kotlin", category: "Linguagens" },
     
     // Backend & APIs
@@ -109,17 +109,17 @@ equipe, visando as melhores entregas e soluções.
     { name: "Postman", category: "Backend & APIs" },
     
     // Frontend & FullStack
-    { name: "React.js", category: "Frontend & FullStack" },
-    { name: "Next.js 14", category: "Frontend & FullStack" },
-    { name: "Angular", category: "Frontend & FullStack" },
+    { name: "HTML 5", category: "Frontend & FullStack" },
+    { name: "CSS 3", category: "Frontend & FullStack" },
+    { name: "JavaScript", category: "Frontend & FullStack" },
     { name: "TypeScript", category: "Frontend & FullStack" },
-    { name: "Tailwind CSS", category: "Frontend & FullStack" },
+    //{ name: "Tailwind CSS", category: "Frontend & FullStack" },
     //{ name: "Framer Motion", category: "Frontend & FullStack" },
     //{ name: "Context API / Hooks", category: "Frontend & FullStack" },
     { name: "Design Responsivo", category: "Frontend & FullStack" },
     
     // Cloud & DevOps
-    { name: "AWS (EC2, S3, RDS, VPC, IAM)", category: "Cloud & DevOps" },
+    //{ name: "AWS (EC2, S3, RDS, VPC, IAM)", category: "Cloud & DevOps" },
     { name: "Docker", category: "Cloud & DevOps" },
     { name: "Docker Compose", category: "Cloud & DevOps" },
     //{ name: "Nginx", category: "Cloud & DevOps" },
@@ -219,6 +219,37 @@ equipe, visando as melhores entregas e soluções.
         "Trabalho com metodologia Scrum e Kamban."
       ],
     },
+    {
+      title: "Técnico júnior",
+      company: "Elevadores Atlas Schindler",
+      period: "Fevereiro de 2024 a Abril de 2025",
+      location: "Itajaí",
+      responsibilities: [
+        "Manutenção preventiva e corretiva de equipamentos, identificando falhas e executando reparos para garantir o funcionamento correto.",
+        "Suporte técnico aos clientes, esclarecendo dúvidas e auxiliando na resolução de problemas.", 
+        "Atendimento a clientes internos e externos, solucionando dúvidas e problemas técnicos relacionados aos produtos e serviços oferecidos.", 
+        "Instalação de sistemas e equipamentos, realizando testes para verificar o funcionamento correto e a segurança operacional.",
+        "Avaliação e identificação de problemas, buscando soluções para restaurar a funcionalidade de forma preventiva e evitando prejuízos.",
+        "Elaboração de relatórios técnicos sobre os serviços realizados, registrando os procedimentos adotados, peças substituídas e resultados obtidos.",
+        "Colaboração com equipes multidisciplinares em projetos de melhoria contínua, visando otimizar processos produtivos."
+      ],
+    },
+        {
+      title: "Técnico em eletrônica",
+      company: "RKP Engenharia Clínica",
+      period: "Julho de 2021 a Julho de 2023",
+      location: "Itajaí",
+      responsibilities: [
+        "Colaboração em projetos de manutenção, realizando diagnósticos em equipamentos eletrônicos para garantir seu funcionamento adequado.",
+        "Interação com a equipe de engenharia, discutindo melhorias em processos para otimizar a eficiência das operações.", 
+        "Atendimento a demandas de clientes, oferecendo suporte técnico sobre produtos eletrônicos e solucionando dúvidas frequentes.", 
+        "Realização de inspeções em equipamentos, assegurando o cumprimento de normas de segurança e qualidade estabelecidas.",
+        "Análise de problemas de funcionamento dos equipamentos, determinando soluções adequadas às falhas detectadas.",
+        "Testagem de equipamentos eletrônicos após os serviços de manutenção, garantindo o bom funcionamento do produto e a satisfação do cliente com o trabalho realizado.",
+        "Montagem e instalação de equipamentos eletrônicos, realizando testes com o intuito de detectar possíveis falhas na parte elétrica, prezando pela qualidade de funcionamento dos dispositivos."
+      ],
+    },
+
   ],
   certifications: [
     {
